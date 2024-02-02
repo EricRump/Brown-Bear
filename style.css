@@ -6,3 +6,57 @@ html {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+h1,
+h2 {
+  text-align: center;
+  padding: 2.3rem;
+  background-image: linear-gradient(to bottom, chocolate 0%, sienna 100%);
+  font-size: 2rem;
+}
+
+h2::before {
+  content: "";
+  border-left: 3px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+h2::after {
+  content: "";
+  border-right: 3px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+}
+.navigation a {
+  padding: 1.5rem 0.5rem;
+}
+
+#media p {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.video {
+  border: 7px dashed olive;
+  width: 800px;
+  height: 600px;
+  padding: 2rem;
+}
+
+.picture {
+  left: 20rem;
+  top: 11rem;
+  width: fit-content;
+}
+
+.navigation {
+  margin-bottom: 5rem;
+}
+
+img {
+  margin-right: 2.5rem;
+  margin-left: 3rem;
+  position: static;
+}
